@@ -1,0 +1,27 @@
+{
+    "name": "fei/payment-package",
+    "description": "Payment client package integration for Objective PHP applications",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ludovic Sanctorum",
+            "email": "lsa@opcoding.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fei\\Service\\Payment\\Package\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.flash-global.net"
+        }
+    ],
+    "require": {
+        "objective-php/application": "^1.0",
+        "fei/payment-client": "^1.0"
+    }
+}
