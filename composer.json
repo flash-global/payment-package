@@ -15,6 +15,10 @@
         }
     },
     "repositories": [
+	{
+	    "type": "git",
+	    "url": "git@github.com:flash-global/payment-client.git"
+	},
         {
             "type": "composer",
             "url": "https://composer.flash.global"
